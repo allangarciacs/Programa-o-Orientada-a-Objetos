@@ -1,0 +1,62 @@
+package pkg;
+
+import java.util.Scanner;
+
+public class Program {
+
+
+	public static void main(String[] args) {
+		
+		//System.out.print("teste \n");
+		//System.out.println("Ola pessoal");
+		
+		//int idade;
+		//idade = 18;
+		
+		//System.out.printf("%d \n", idade) -> funciona assim tb
+		//System.out.println("A idade é: "+idade);
+
+		//sysout ctrl + espaço + enter ==
+		//System.out.println("O individuo tem "+idade+" anos");
+		
+		//char c = 'r';
+		//System.out.println("O char "+c);
+		//float f = 3.14f;
+		//System.out.println("O float "+f);
+		//double d = 3.141516;
+		//System.out.println("o double: "+d);
+		
+		//ALT + shift + r (enquanto seleciona a variavel) muda o nome dela
+		
+		//String nome; //é o q eu vou ler 
+		
+		//System.out.println("Digite o nome:");
+		//nome = teclado.nextLine();
+		//System.out.println("O nome digitado: "+nome); 
+		
+		//int numero; //é o q eu vou ler 
+		//System.out.println("digite um inteiro:");
+		//numero = teclado.nextInt();
+		//System.out.println("seu numeoro é: "+numero);
+		
+		//float num; //é o q eu vou ler 
+		//System.out.println("digite um float:");
+		//num = teclado.nextFloat();
+		//System.out.println("seu numeoro é: "+num);
+		
+		Scanner teclado = new Scanner(System.in);
+		int data;
+		System.out.println("digite uma idade:");
+		data = teclado.nextInt();
+		System.out.println("Idade digitada: "+data);
+		
+		if(data>=18) { 
+			System.out.println("maior de idade");
+		}
+		else { 
+			System.out.println("menor de idade");
+		}
+		
+	}
+
+}
