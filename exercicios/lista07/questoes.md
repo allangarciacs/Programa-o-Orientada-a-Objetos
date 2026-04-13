@@ -33,7 +33,10 @@ pessoa é maior de idade e retorna o resultado. Faça leitura pelo teclado dos
 valores.
 ---
 • 7 – Represente a classe abaixo:
+
 <img width="312" height="254" alt="image" src="https://github.com/user-attachments/assets/99087a8b-e603-4ee2-a6f4-a7d739f1e78d" />
+
 ---
 • 8 – Represente a classe abaixo:
+
 <img width="548" height="291" alt="image" src="https://github.com/user-attachments/assets/6d68063a-c6a1-45a1-a485-5fc93430f9a9" />
