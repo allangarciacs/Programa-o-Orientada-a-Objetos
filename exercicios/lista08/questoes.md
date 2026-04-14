@@ -1,15 +1,15 @@
 1) Explique os seguintes conceitos de POO em Java:
 <pre>
 a) Classe                                       
-É uma estrutura composta de conjuntos de objetos com características parecidas. -> conjunto de objetos 
+  É uma estrutura composta de conjuntos de objetos com características parecidas. -> conjunto de objetos 
 b) Objeto
-É um instância de uma classe.                                                   -> instância de uma classe                           
+  É um instância de uma classe.                                                   -> instância de uma classe                           
 c) Atributo
-Variáveis na linguagem estruturada.                                             -> caractetísticas do objeto
+  Variáveis na linguagem estruturada.                                             -> caractetísticas do objeto
 d) Método
-Funções na linguagem estruturada.                                               -> funcionalidades do objeto
+  Funções na linguagem estruturada.                                               -> funcionalidades do objeto
 e) Encapsulamento
-Empacotamento dos atributos e métodos numa classe.
+  Empacotamento dos atributos e métodos numa classe.
 </pre>
 ---
 2) Qual a diferença entre método e construtor em uma classe? Dê um exemplo.
@@ -17,9 +17,10 @@ Empacotamento dos atributos e métodos numa classe.
 O método é uma função da classe que executa alguma ação, ele pode receber parâmetros e retornar algum valor,
 já o contrutor é um método especial usado para inicializar um objeto, ele é chamado automaticamente ao criar
 o objeto com 'new', tem o mesmo nome da classe e não tem retorno. 
-                                              Método     -> faz algo
-                                              Construtor -> cria/inicializa o objeto
+                                                                    Método     -> faz algo
+                                                                    Construtor -> cria/inicializa o objeto
 Exemplo:
+<pre> ```java
 class Carro {
     String marca;
     String modelo;
@@ -46,14 +47,43 @@ public class Main {
         c1.exibirDados();
     }
 }
-  
+``` </pre>
 </pre>
 ---
 3) O que são modificadores de acesso em Java? Cite e explique brevemente os principais.
-
+<pre>
+São palavras-chave que determinam o nível de acesso ao membros de uma classe (atributos e métodos). Exemplos:
+public: deixa qualquer classe acessar o membro
+private: permite que somente a própria classe possa acessar o membro
+protected: permite que as classes e subclasses do mesmo pacote possam acessar o membro
+default: é a classe padrão (se nenhuma for identificada essa sera usada), ela permite que as classes do mesmo pacote possam acessar o membro
+</pre>
 ---
 4) Qual a diferença entre os tipos de dados String, int e boolean? Dê um exemplo de uso de cada um.
+<pre>
+String  -> serve para guardar texto. 
+int     -> guarda números inteiros (sem casas decimais)
+boolean ->
+Exemplos:
+<pre> ```java
+public class Exemplo {
+    public static void main(String[] args) {
+        // String → texto
+        String nome = "Allan";
 
+        // int → número inteiro
+        int idade = 20;
+
+        // boolean → verdadeiro ou falso
+        boolean maiorDeIdade = true;
+
+        System.out.println(nome);
+        System.out.println(idade);
+        System.out.println(maiorDeIdade);
+    }
+}
+``` </pre>
+</pre>
 --
 5) Explique o que é e para que serve o método toString() em uma classe.
 
