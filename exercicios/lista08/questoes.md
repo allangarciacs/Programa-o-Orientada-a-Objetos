@@ -20,7 +20,7 @@ o objeto com 'new', tem o mesmo nome da classe e não tem retorno.
                                                                     Método     -> faz algo
                                                                     Construtor -> cria/inicializa o objeto
 Exemplo:
-<pre> ```java
+```java
 class Carro {
     String marca;
     String modelo;
@@ -47,7 +47,7 @@ public class Main {
         c1.exibirDados();
     }
 }
-``` </pre>
+```
 </pre>
 ---
 3) O que são modificadores de acesso em Java? Cite e explique brevemente os principais.
@@ -65,14 +65,14 @@ String  -> serve para guardar texto.
 int     -> guarda números inteiros (sem casas decimais)
 boolean ->
 Exemplos:
-<pre> ```java
+```java
 public class Exemplo {
     public static void main(String[] args) {
         // String → texto
         String nome = "Allan";
 
         // int → número inteiro
-        int idade = 20;
+        int idade = 19;
 
         // boolean → verdadeiro ou falso
         boolean maiorDeIdade = true;
@@ -82,14 +82,18 @@ public class Exemplo {
         System.out.println(maiorDeIdade);
     }
 }
-``` </pre>
+```
 </pre>
 --
 5) Explique o que é e para que serve o método toString() em uma classe.
-
+<pre>
+É um método da classe Object. Ele é usado para converter um objeto em texto (String).  
+</pre>
 ---
 6) Descreva o que acontece quando se tenta acessar um atributo privado diretamente fora da classe. Como é possível acessá-lo de forma correta?
-
+<pre>
+O java não permite o acesso, e ocorre um erro de compilação. Isso acontece por causa do encapsulamento, que proteje os dados da classe. Para acessa-los de forma correta, é necessário métodos públicos. 
+</pre>
 ---
 7) Crie uma classe Produto com os atributos:
 - nome (String)
