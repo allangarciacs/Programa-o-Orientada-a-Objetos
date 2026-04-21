@@ -11,7 +11,8 @@ d) Método
 e) Encapsulamento
   Empacotamento dos atributos e métodos numa classe.
 </pre>
----
+
+
 2) Qual a diferença entre método e construtor em uma classe? Dê um exemplo.
 <pre>
 O método é uma função da classe que executa alguma ação, ele pode receber parâmetros e retornar algum valor,
@@ -49,7 +50,8 @@ public class Main {
 }
 ```
 </pre>
----
+
+
 3) O que são modificadores de acesso em Java? Cite e explique brevemente os principais.
 <pre>
 São palavras-chave que determinam o nível de acesso ao membros de uma classe (atributos e métodos). Exemplos:
@@ -58,7 +60,8 @@ private: permite que somente a própria classe possa acessar o membro
 protected: permite que as classes e subclasses do mesmo pacote possam acessar o membro
 default: é a classe padrão (se nenhuma for identificada essa sera usada), ela permite que as classes do mesmo pacote possam acessar o membro
 </pre>
----
+
+
 4) Qual a diferença entre os tipos de dados String, int e boolean? Dê um exemplo de uso de cada um.
 <pre>
 String  -> serve para guardar texto. 
@@ -84,17 +87,19 @@ public class Exemplo {
 }
 ```
 </pre>
---
+
 5) Explique o que é e para que serve o método toString() em uma classe.
 <pre>
 É um método da classe Object. Ele é usado para converter um objeto em texto (String).  
 </pre>
----
+
+
 6) Descreva o que acontece quando se tenta acessar um atributo privado diretamente fora da classe. Como é possível acessá-lo de forma correta?
 <pre>
 O java não permite o acesso, e ocorre um erro de compilação. Isso acontece por causa do encapsulamento, que proteje os dados da classe. Para acessa-los de forma correta, é necessário métodos públicos. 
 </pre>
----
+
+
 7) Crie uma classe Produto com os atributos:
 - nome (String)
 - preco (double)
@@ -106,8 +111,9 @@ Na Main:
 - Crie dois produtos, sendo um com valores informados via teclado e outro com valores definidos no código
 - Exiba as informações e o valor total de cada produto
 
----
+
 8) Crie uma classe Usuario com os atributos:
+<pre>
 - nomeUsuario (String)
 - senha (String)
 - logado (boolean, inicialmente false)
@@ -119,9 +125,11 @@ Na Main:
 - Crie um usuário com nome e senha definidos no código
 - Peça que o usuário digite os dados via teclado para fazer login
 - Mostre se o login foi bem-sucedido e permita o logout
+</pre>
 
----
+
 9) Crie uma classe Filme com os atributos:
+<pre>
 - titulo (String)
 - diretor (String)
 - duracaoEmMinutos (int)
@@ -131,9 +139,10 @@ Crie os métodos:
 - ehLongo() que retorna true se o filme tiver mais de 120 minutos
 Na Main:
 - Peça ao usuário os dados de um filme e mostre os detalhes e se ele é considerado um filme longo
+</pre>
 
----
 10) Crie uma classe Tarefa com os atributos:
+<pre>
 - descricao (String)
 - concluida (boolean, inicializado como false)
 Implemente:
@@ -143,3 +152,4 @@ Na Main:
 - Crie um vetor ou lista com 3 tarefas (usando entrada via teclado)
 - Marque uma das tarefas como concluída
 - Mostre todas as tarefas com seu status
+</pre>
