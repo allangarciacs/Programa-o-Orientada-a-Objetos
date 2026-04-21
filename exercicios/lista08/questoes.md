@@ -99,8 +99,8 @@ public class Exemplo {
 O java não permite o acesso, e ocorre um erro de compilação. Isso acontece por causa do encapsulamento, que proteje os dados da classe. Para acessa-los de forma correta, é necessário métodos públicos. 
 </pre>
 
-
 7) Crie uma classe Produto com os atributos:
+<pre>
 - nome (String)
 - preco (double)
 - quantidade (int)
@@ -110,7 +110,7 @@ Implemente:
 Na Main:
 - Crie dois produtos, sendo um com valores informados via teclado e outro com valores definidos no código
 - Exiba as informações e o valor total de cada produto
-
+</pre>
 
 8) Crie uma classe Usuario com os atributos:
 <pre>
