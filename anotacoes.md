@@ -1,14 +1,19 @@
 ## Anotações da disciplina de Programação Orientada a Objetos
+### Questões gerais
 <pre>
 1) Explique os seguintes conceitos de POO em Java:
 a) Classe                                       
-  É uma estrutura composta de conjuntos de objetos com características parecidas. -> conjunto de objetos 
+  É uma estrutura composta de conjuntos de objetos com características parecidas. -> conjunto de objetos
+  
 b) Objeto
-  É um instância de uma classe.                                                   -> instância de uma classe                           
+  É um instância de uma classe.                                                   -> instância de uma classe 
+  
 c) Atributo
   Variáveis na linguagem estruturada.                                             -> caractetísticas do objeto
+  
 d) Método
   Funções na linguagem estruturada.                                               -> funcionalidades do objeto
+  
 e) Encapsulamento
   Empacotamento dos atributos e métodos numa classe.
 
@@ -48,23 +53,22 @@ public class Main {
     }
 }
 ```
+  
 3) O que são modificadores de acesso em Java? Cite e explique brevemente os principais.
   
 São palavras-chave que determinam o nível de acesso ao membros de uma classe (atributos e métodos). Exemplos:
-public: deixa qualquer classe acessar o membro;
-private: permite que somente a própria classe possa acessar o membro;
+public   : deixa qualquer classe acessar o membro;
+private  : permite que somente a própria classe possa acessar o membro;
 protected: permite que as classes e subclasses do mesmo pacote possam acessar o membro;
-default: é a classe padrão (se nenhuma for identificada essa sera usada), ela permite que as classes do mesmo
+default  : é a classe padrão (se nenhuma for identificada essa sera usada), ela permite que as classes do mesmo
 pacote possam acessar o membro.
 
 4) Qual a diferença entre os tipos de dados String, int e boolean? Dê um exemplo de uso de cada um.
   
 String  -> serve para guardar texto. 
 int     -> guarda números inteiros (sem casas decimais)
-boolean ->
+boolean -> true or false
   
-Exemplos:
-```java
 public class Exemplo {
     public static void main(String[] args) {
         // String → texto
@@ -81,17 +85,33 @@ public class Exemplo {
         System.out.println(maiorDeIdade);
     }
 }
-```
-5) Explique o que é e para que serve o método toString() em uma classe.
   
+5) Explique o que é e para que serve o método toString() em uma classe.
 É um método da classe Object. Ele é usado para converter um objeto em texto (String).  
 
+---------------------------------------------------------------------------------------------------------
+  
 6) Descreva o que acontece quando se tenta acessar um atributo privado diretamente fora da classe. Como
 é possível acessá-lo de forma correta?
-
 O java não permite o acesso, e ocorre um erro de compilação. Isso acontece por causa do encapsulamento,
 que proteje os dados da classe. Para acessa-los de forma correta, é necessário métodos públicos. 
 </pre>
 
+## Inteface e classe abstrata
+
+Classe abstreatata pode conter metdoos abstratos e metdos na abstratos (concretos)
+ja uma interface so tera mete=idos abstratos
+
+
+
+uma classe pode implemtnar vaias interfaces
+
+inteface sempre ser apublic 
+
+abtrata e utilizada quando esejamos criar uma classe base com ja alguma implentacaoes, mas que permite q elas im
+
+intefdace utlizada quando desejamos implemtnar um conuntos de meteods 
+
+interface
 
 
